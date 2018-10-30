@@ -83,7 +83,7 @@ function draw() {
     fill(255);
     textSize(23);
     textStyle(BOLD)
-    text('TILEMAP STUFF', width-290, 60);
+    text('IMPORTING TILEMAPS', width-290, 60);
     textSize(15);
     textStyle(NORMAL);
     var textY = 80;
