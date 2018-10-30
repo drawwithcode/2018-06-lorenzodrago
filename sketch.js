@@ -79,7 +79,7 @@ function draw() {
   if(tutActive) {
     fill(0,150);
     noStroke();
-    rect(width-20-300,20,300,210,5);
+    rect(width-20-300,20,300,255,5);
     fill(255);
     textSize(23);
     textStyle(BOLD)
@@ -88,16 +88,14 @@ function draw() {
     textStyle(NORMAL);
     var textY = 80;
     text('Compatible with Tiled Map Editor', width-290, textY);
-    textY+=30;
-    text('Now with buggy collision', width-290, textY);
-    textY+=20;
-    text('You can double jump, triple jump etc.', width-290, textY);
-    textY+=30;
-    text('Navigate with ARROW KEYS', width-290, textY);
-    textY+=20;
-    text('Press ENTER to cycle tilesets', width-290, textY);
-    textY+=20;
-    text('Press X to hide', width-290, textY);
+    textY+=30; text('Now with buggy collision', width-290, textY);
+    textY+=20; text('You can double jump, triple jump etc.', width-290, textY);
+    textY+=30; text('Navigate with ARROW KEYS', width-290, textY);
+    textY+=20; text('Press ENTER to cycle tilesets', width-290, textY);
+    textY+=20; text('Press X to hide', width-290, textY);
+    textSize(12);
+    textY+=30; text("I know there's a library that does exactly this", width-290, textY);
+    textY+=20; text("but better. It's just for practice.", width-290, textY);
   }
 
 }
