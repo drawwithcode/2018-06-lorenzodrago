@@ -81,7 +81,7 @@ function draw() {
     noStroke();
     rect(width-20-300,20,300,255,5);
     fill(255);
-    textSize(23);
+    textSize(20);
     textStyle(BOLD)
     text('IMPORTING TILEMAPS', width-290, 60);
     textSize(15);
